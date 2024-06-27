@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  /* margin: 0px 120px; */
+  width: 85%;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.nav {
+  display: flex;
+  width: 823px;
+}
+
+.nav-bar a:hover {
+  background-color: #ddd;
+}
+
+/* header part  */
+
+header .top-header {
+  background-color: black;
+  padding: 10px 0px;
+}
+
+header .top-header p {
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Inria Sans";
+}
+
+header .main-header .nav-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  border-bottom: black solid 1px;
+}
+header .main-header .nav-row .logo {
+  width: 190px;
+  height: 49px;
+  top: 80px;
+  left: 100px;
+}
+.nav-bar {
+  display: flex;
+  gap: 45px;
+}
+
+.sidenav {
+  display: flex;
+  gap: 35px;
+  padding-left: 220px;
+}
+.sidenav .login-btn a {
+  border-right: black solid 1px;
+  border-bottom: black solid 1px;
+  width: 94px;
+}
+/* header part ended  */
+
+/* banner part start  */
+.banner {
+  height: 90vh;
+  position: relative;
+}
+.content {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  z-index: 99;
+}
+.content h3 {
+  font-size: 40px;
+  color: white;
+}
+
+.content p {
+  font-size: 20px;
+  color: white;
+  padding-top: 10px;
+}
+
+.banner .picture {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding-top: 5px;
+}
+.banner-img {
+  width: 755px;
+  height: 594px;
+  object-fit: cover;
+  position: relative;
+}
+.first-image a {
+  position: absolute;
+  font-size: 28px;
+  bottom: 40px;
+  right: 30px;
+  margin: 10px 10px;
+  height: 50px;
+  border: 2px solid black;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.34);
+  opacity: 1;
+}
+
+.banner-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.second-image {
+  object-fit: contain;
+}
+.second-image a {
+  position: absolute;
+  font-size: 28px;
+  bottom: 40px;
+  left: 25px;
+  margin: 10px 10px;
+  height: 50px;
+  border: 2px solid black;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.34);
+  opacity: 1;
+}
+
+/* banner part ended  */
+
+/* Starting trending style section */
+.trending-style {
+  padding: 10px 0px;
+}
+.trending-style .ts-images {
+  display: flex;
+  width: 200px;
+  height: 215px;
+  margin: 10px;
+  gap: 20px;
+}
+.description {
+  width: 100%;
+  display: flex;
+  height: 60px;
+  left: 100px;
+}
+/*-------Trending section ended----*/
+
+/*top shoes section started*/
+.top-shoe {
+  padding: 40px 0px;
+}
+.top-shoe .shoe-images {
+  display: flex;
+  width: 200px;
+  height: 215px;
+  margin: 10px;
+  gap: 20px;
+}
+.description {
+  padding-left: 10px;
+  font-size: 15px;
+  display: flex;
+  gap: 115px;
+}
+
+/*----Streetwears section---*/
+.top-street {
+  padding: 40px 0px;
+}
+.top-street .sw-images {
+  display: flex;
+  width: 200px;
+  height: 215px;
+  margin: 10px;
+  gap: 20px;
+}
+.description {
+  padding: 10px 20px;
+  font-size: 15px;
+  display: flex;
+  gap: 138px;
+}
+
+/*----Footer section*/
+
+.primary-footer {
+  width: 100%;
+  height: 250px;
+  background: #005a6d;
+}
+.primary-footer .content p {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: whitesmoke;
+  top: 2200px;
+  display: block;
+}
+
+.primary-footer .content h3 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+.p-images {
+  display: flex;
+  height: 250px;
+  width: 148px;
+}
+
+/*----Secondary footer-----*/
+.secondary-footer {
+  display: flex;
+}
+
+.navbar {
+  background-color: white;
+  overflow: hidden;
+  padding-left: 30px;
+  padding-top: 20px;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 25px;
+  justify-content: space-between;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.bottom-nav {
+  width: 213px;
+}
